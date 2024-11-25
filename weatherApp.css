@@ -10,9 +10,11 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url(background.jpg);
-  background-position: center;
-  background-size: cover;
+  background: linear-gradient(
+    -70deg,
+    rgba(10, 2, 34, 1) 36%,
+    rgba(11, 205, 183, 1) 100%
+  );
 }
 .container {
   position: relative;
